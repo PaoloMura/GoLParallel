@@ -21,7 +21,7 @@ Our solution is a parallel implementation using Go. An alternative distributed v
 
 A skeleton project was provided including SDL. We developed the simulation logic in the `gol` directory.
 
-For a description of how our solution works, see `report.txt`.
+For a description of how our solution works, see `report.pdf`.
 
 ## How to run
 
