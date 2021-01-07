@@ -25,11 +25,11 @@ For a description of how our solution works, see `report.txt`.
 
 ## How to run
 
-`go test -v -run=TestGol/-n$` (where 1 ≤ n ≤ 16) tests the code with n workers.
-`go test -v -run=TestGol` runs all parallel tests.
-`go test -v -run=TestAlive` tests that the correct number of alive cells is reported every two seconds.
-`go test -v -run=TestPgm` tests that the result is output correctly.
-`go test -v` runs all above tests.
+- `go test -v -run=TestGol/-n$` (where 1 ≤ n ≤ 16) tests the code with n workers.
+- `go test -v -run=TestGol` runs all parallel tests.
+- `go test -v -run=TestAlive` tests that the correct number of alive cells is reported every two seconds.
+- `go test -v -run=TestPgm` tests that the result is output correctly.
+- `go test -v` runs all above tests.
 
-`go run .` runs the simulation. With the SDL window open, press `s` to save, `q` to quit and `p` to pause/resume.
+- `go run .` runs the simulation. With the SDL window open, press `s` to save, `q` to quit and `p` to pause/resume.
 
